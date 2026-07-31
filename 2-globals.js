@@ -1,5 +1,5 @@
-// __dirname
-// __filename
-// require
-// module
-// process
+__dirname
+__filename
+require
+module
+process
