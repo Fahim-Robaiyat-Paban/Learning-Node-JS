@@ -1,9 +1,9 @@
 const http = require('http')
 
 const server = http.createServer((req,res) => {
-    console.log('requested something');
     
     if (req.url === '/') {
+        console.log('requested something');
         res.end(`<h1>This is the home page</h1>`)
     }
     
