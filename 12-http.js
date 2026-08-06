@@ -1,6 +1,5 @@
 const http = require('http')
 const { type } = require('os')
-
 const server = http.createServer((req,res) =>{
     if (req.url === '/') {
       return res.end(`<h1>This is the home page</h1> <p>and this is the button to the about pageno<p/> <a href="/about">About</a>`)
@@ -15,11 +14,8 @@ const server = http.createServer((req,res) =>{
         <a href="/">back home</a>
         `
     )
-
 })
-
 server.listen(6700)
-
 
 const server = http.createServer((req,res) => {
     
@@ -29,14 +25,10 @@ const server = http.createServer((req,res) => {
     }
     
 })
-
 server.listen(6700, () => {
     console.log("Server listening on : 5000...");
     
 })
-
-
-
 const http = require('http')
 
 const serverrr = http.createServer((req,res) => {
