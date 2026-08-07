@@ -20,5 +20,8 @@
   "homepage": "https://github.com/Fahim-Robaiyat-Paban/Learning-Node-JS#readme",
   "devDependencies": {
     "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
   }
 }
