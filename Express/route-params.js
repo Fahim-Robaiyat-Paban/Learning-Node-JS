@@ -29,6 +29,8 @@ app.get('/data.js/:productID', (req, res) => {
     }
 })
 
+// HARD CODED
+
 
 // app.get('/data.js/1', (req, res) => {
 //     const singleProduct = productapi.products.find((product) => {
