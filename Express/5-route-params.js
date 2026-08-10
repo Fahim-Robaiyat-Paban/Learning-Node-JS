@@ -29,6 +29,11 @@ app.get('/data.js/:productID', (req, res) => {
     }
 })
 
+
+app.get('/data.js/:productID/review/:reviewID', (req, res) => {
+    console.log(req.params)
+})
+
 // HARD CODED
 
 
